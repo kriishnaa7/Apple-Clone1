@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.border {
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.border:hover {
+    text-decoration-line: underline;
+}
+.panel1 {
+    background-color: #1a0000;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    gap: 3rem;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.panel2 {
+    background-color: #1D1D1F;
+    height: 60px;
+    width: 100%;
+}
+
+.shoap {
+    height: 60px;
+    gap: 2rem;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.shoapnow {
+    color: blue;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.panel4 {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    top: calc(var(--global-nav-collective-height) * -1);
+}
+
+.image {
+    background-image: url(hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
+    background-color: transparent;
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    background-size: 1068px 617px;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    top: calc(var(--global-nav-collective-height) * -1);
+}
+
+.name {
+    color: white;
+    font-size: 30px;
+    letter-spacing: -0.0rem;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 37.6rem;
+    margin-top: 2.8rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 19px;
+}
+
+.name2 {
+    color: white;
+    font-size: 18px;
+    letter-spacing: inherit;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35rem;
+    margin-top: 8rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    ;
+}
+
+.name3 {
+    color: #2997ff;
+    letter-spacing: inherit;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40rem;
+    margin-top: 11rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.21053;
+    font-weight: lighter;
+    letter-spacing: .012em;
+
+}
+
+.name4 {
+    color: #2997ff;
+    letter-spacing: inherit;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 53rem;
+    margin-top: 11rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    font: 19px;
+}
+
+/* panel5 */
+.panel6 {
+    background-color: white;
+    height: 60vh;
+    width: 100%;
+}
+
+.image2 {
+    background-image: url(https://www.apple.com/v/iphone/home/br/images/overview/hero/hero_iphone_15__fano21ho6fqu_large.jpg);
+    background-color: transparent;
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    bottom: 0px;
+}
+
+.name5 {
+    color: black;
+    font-size: 30px;
+    letter-spacing: -0.0rem;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 37.6rem;
+    margin-top: 2.8rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 19px;
+}
+
+.name6 {
+    color: black;
+    font-size: 18px;
+    letter-spacing: inherit;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 32rem;
+    margin-top: 8rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    ;
+}
+
+.name7 {
+    color: #2997ff;
+    letter-spacing: inherit;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40rem;
+    margin-top: 11rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.21053;
+    font-weight: lighter;
+    letter-spacing: .012em;
+
+}
+
+.name8 {
+    color: #2997ff;
+    letter-spacing: inherit;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 53rem;
+    margin-top: 11rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    font: 19px;
+}
+
+/* panel7 */
+.watchcontainer {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.iwatch {
+    height: 100vh;
+    width: 100%;
+    background-image: url(hero_apple_watch_series_9__x5wo4ptz2giu_large.jpg);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    justify-content: flex-end;
+}
+
+.menu0 {
+    text-align: center;
+    color: white;
+    justify-content: flex-end;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: inherit;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25rem;
+    margin-top: 28rem;
+    font-weight: lighter;
+    font-size: 15px;
+    font: 19px;
+}
+
+.button {
+    text-align: center;
+    background-color: transparent;
+    justify-content: flex-end;
+}
+
+.learn {
+    color: white;
+    letter-spacing: inherit;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 36rem;
+    margin-top: 35rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:400;
+    font-size: 15px;
+    font: 19px;
+}
+
+.learn1 {
+    color: white;
+    justify-content: flex-end;
+    letter-spacing: inherit;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 47rem;
+    margin-top: 35rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font: 19px;
+}
+/* panel8 */
+.shoping-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    grid-gap: var(--gutter-width);
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 30px;
+}
+
+.box-image {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.box-content p {
+    color: #007185;
+    font-weight: 500;
+}
+/* panel8 */
+.familyplane{
+    margin-top: 2rem;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.end{
+    margin-top: 6rem;
+    height: 15vh;
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.end1{
+    margin-top: 3rem;
+    color: black;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin: 10px;
+    color:#1a0000;
+}
+.end2{
+    margin-left: 20rem;
+    align-items: center;
+    justify-content: center;
+}
+.end3{
+    margin-left: 17rem;
+    align-items: center;
+    justify-content: center;
+}
